@@ -1,0 +1,27 @@
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 2.5rem;
+    margin: 25px;
+}
+
+#editor {
+    resize: none;
+    min-height: 100vh;
+    font-family: Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    border: 3px solid #333;
+    border-radius: 5px;
+    background: #eee;
+}
+
+#preview {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    white-space: pre-line;
+    border: 3px solid #333;
+    border-radius: 5px;
+    background-color: #eee;
+}
